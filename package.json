@@ -1,0 +1,11 @@
+{
+  "name": "floyd-paul-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Floyd Paul's static Three.js portfolio, ready for GitHub Pages",
+  "scripts": {
+    "start": "node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

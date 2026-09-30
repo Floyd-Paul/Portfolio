@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5f0">
+  <meta name="description" content="Floyd Paul — independent creative designer on Gotland, Sweden. Branding, art direction, editorial, illustration and 3D. Rebellious design for good.">
+  <meta property="og:title" content="Floyd Paul — Rebellious design for good.">
+  <meta property="og:description" content="A selection of branding, editorial and digital work. Independent by nature. Based on Gotland, Sweden.">
+  <meta property="og:type" content="website">
+  <title>Floyd Paul — Rebellious design for good.</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#work">Skip to selected work</a>
+  <header class="header" id="top">
+    <a class="wordmark" href="#top" aria-label="Floyd Paul, home">FLOYD<br>PAUL<span>.</span></a>
+    <p class="header-note">Independent creative designer<br>Gotland, Sweden · Working everywhere</p>
+    <nav aria-label="Main navigation">
+      <a href="#work"><span>01</span> Work</a>
+      <a href="#about"><span>02</span> About</a>
+      <a class="nav-contact" href="#contact">Säg hej <span aria-hidden="true">✳</span></a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-copy">
+        <p class="eyebrow">Art direction. Design. A healthy disregard for ordinary.</p>
+        <h1 id="hero-heading">Rebellious<br>design<br>for <em>good.</em></h1>
+        <div class="hero-description"><span class="asterisk" aria-hidden="true">✳</span><p>Good ideas don't sit still.<br>Neither do I.</p></div>
+        <a class="pill dark" href="#work">Explore the work <span class="mini-grid" aria-hidden="true">▦</span></a>
+      </div>
+      <div class="hero-art" id="hero-art">
+        <div class="art-label"><span>SELECTED WORK / 2026–27</span><span class="cross" aria-hidden="true">+</span></div>
+        <div class="scene-fallback" id="scene-fallback" aria-hidden="true">
+          <img class="fallback-one" src="./assets/work/gotland-identity.webp" alt="" fetchpriority="high">
+          <img class="fallback-two" src="./assets/work/abergs-packaging.webp" alt="">
+          <img class="fallback-three" src="./assets/work/edge-riders-identity.webp" alt="">
+        </div>
+        <canvas id="gallery-canvas" aria-hidden="true"></canvas>
+        <div class="scene-footer"><span id="scene-caption">A few things I've put into the world.</span><button class="motion-control" id="motion-toggle" type="button" aria-pressed="false" hidden>Pause motion</button></div>
+      </div>
+    </section>
+    <div class="discipline-band" aria-label="Creative disciplines"><span>Branding</span><i aria-hidden="true">✳</i><span>Art direction</span><i aria-hidden="true">✳</i><span>Editorial</span><i aria-hidden="true">✳</i><span>Digital & 3D</span><i aria-hidden="true">✳</i><span>Illustration</span></div>
+    <section class="work section" id="work" aria-labelledby="work-heading">
+      <div class="section-top"><p class="eyebrow">01 / A selection, not a limitation</p><p class="small-label">Different disciplines. Same curiosity.</p></div>
+      <div class="work-heading-row"><h2 id="work-heading">Selected work<span class="acid-dot">.</span></h2><span class="project-count" id="project-count">12 projects</span></div>
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button type="button" data-filter="all" aria-pressed="true">All work <sup>12</sup></button>
+        <button type="button" data-filter="brand" aria-pressed="false">Brand & identity</button>
+        <button type="button" data-filter="editorial" aria-pressed="false">Editorial</button>
+        <button type="button" data-filter="digital" aria-pressed="false">Digital & 3D</button>
+      </div>
+      <p class="sr-only" id="filter-status" role="status"></p>
+      <div class="project-grid" id="project-grid"></div>
+      <noscript><p>View all projects in the <a href="./assets/floyd-paul-portfolio.pdf">original portfolio PDF</a>. Enable JavaScript to explore the interactive gallery.</p></noscript>
+    </section>
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="about-portrait"><img src="./assets/work/floyd-paul.webp" width="960" height="1200" alt="Floyd Paul, creative designer" loading="lazy"><span class="portrait-label">Floyd Paul / The person behind the pixels</span></div>
+      <div class="about-copy"><p class="eyebrow">02 / A little more about me</p><h2 id="about-heading">Curiosity<br>doesn't do<br><em>job titles.</em></h2><p>I grew up in Cape Town, where the wind blows hard enough to fill your mouth with salt. Somewhere between the sea, street art and art school, I fell in love with making things.</p><p>More than twenty years later, that hasn't really changed.</p><p>Branding, publishing, illustration, photography, motion, 3D and digital design. I've never been particularly interested in staying inside one discipline. These days I'm just as happy experimenting with AI and 3D printing as I am getting ink on my hands.</p><div class="about-bottom"><p>Made of Cape Town.<br>At home on Gotland, Sweden.</p><a class="text-link" href="./assets/floyd-paul-portfolio.pdf" target="_blank" rel="noopener">View the full PDF <span class="file-label">PDF · 8 MB</span></a></div></div>
+    </section>
+    <section class="play section" aria-labelledby="play-heading">
+      <div class="section-top"><p class="eyebrow">Off the clock. On the mind.</p><p class="small-label">Illustration / Experiments / Visual play</p></div>
+      <h2 id="play-heading">Room to play<span class="acid-dot">.</span></h2>
+      <div class="play-grid"><figure><img src="./assets/work/comfycush-spread.webp" loading="lazy" alt="ComfyCush poster study with hand-drawn shoes over underwater photography"><figcaption>Comfort in unexpected places.<span>Photo: Vincenzo Di Giorgi</span></figcaption></figure><figure><img src="./assets/work/visby-spread.webp" loading="lazy" alt="Squint your eyes poster experiment with an archway in Visby"><figcaption>A different way of looking.<span>Photo: Scott Evans</span></figcaption></figure></div>
+    </section>
+    <section class="contact section" id="contact" aria-labelledby="contact-heading"><div class="section-top"><p class="eyebrow">03 / Good things start with a conversation</p><span class="contact-star" aria-hidden="true">✳</span></div><h2 id="contact-heading">Got a good<br>feeling? <em>Säg hej.</em></h2><div class="contact-row"><a class="email" href="mailto:gotland.flo@gmail.com">gotland.flo@gmail.com</a><a class="phone" href="tel:+46760077389">+46 (0)76 007 7389</a></div><footer><a class="wordmark" href="#top" aria-label="Back to top">FLOYD<br>PAUL<span>.</span></a><p>Independent by nature.<br>Gotland, Sweden.</p><p>© <span id="year">2026</span> Floyd Paul</p><a class="back-top" href="#top">Back to top</a></footer></section>
+  </main>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-bar"><span class="eyebrow" id="dialog-number">Selected work</span><button class="dialog-close" type="button" aria-label="Close project">Close <span aria-hidden="true">×</span></button></div><div class="dialog-content" id="dialog-content"></div></dialog>
+</body>
+</html>
+
+
